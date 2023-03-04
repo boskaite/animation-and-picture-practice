@@ -17,27 +17,87 @@
             </div>
         </div>
         <div class="content_chapter">
-            <h3>1.1 background-size: contain. Подстановка изображения в исходных размерах с повторениями. Выходящее за пределы обрезается.</h3>
+            <div class="title_content_chapter sticky">
+                <h3>1.1 Размеры и повторения отображения фонового изображения</h3>    
+            </div>
+            <h3>1.1.1 background-size: contain. Подстановка изображения в исходных размерах с повторениями. Выходящее за пределы обрезается.</h3>
             <div class="image_content" id="second_img"></div>
-            <h3>1.2 background-size: cover. Заполнение элемента фоновым изображением по наибольшей из сторон без повторения, лишнее обрезается.</h3>
+            <h3>1.1.2 background-size: cover. Заполнение элемента фоновым изображением по наибольшей из сторон без повторения, лишнее обрезается.</h3>
             <div class="image_content" id="third_img"></div>
-            <h3>1.3 background-size: 100px. Заполнение картинками заданным размером 100px по длине изображения. Высота автоматическая, пропорциональна исходному размеру.</h3>
+            <h3>1.1.3 background-size: 100px. Заполнение картинками заданным размером 100px по длине изображения. Высота автоматическая, пропорциональна исходному размеру.</h3>
             <div class="image_content" id="fourth_img"></div>
-            <h3>1.4 background-size: auto 40px. Заполнение картинками заданными размером 40рх по высоте. Длина автоматическая, пропорциональна исходному размеру.</h3>
+            <h3>1.1.4 background-size: auto 40px. Заполнение картинками заданными размером 40рх по высоте. Длина автоматическая, пропорциональна исходному размеру.</h3>
             <div class="image_content" id="fifth_img"></div>
-            <h3>1.5 background-size: 150px 40px. Заполнение картинками заданными размерами 150 рх по длине и 40рх по высоте. Картинка искажается.</h3>
+            <h3>1.1.5 background-size: 150px 40px. Заполнение картинками заданными размерами 150 рх по длине и 40рх по высоте. Картинка искажается.</h3>
             <div class="image_content" id="sixth_img"></div>
-            <h3>1.6 background-repeat:no-repeat. Подстановка изображения в исходных размерах без повторения.</h3>
+            <h3>1.1.6 background-repeat:no-repeat. Подстановка изображения в исходных размерах без повторения.</h3>
             <div class="image_content" id="seventh_img"></div>
-            <h3>1.7 background-repeat:no-repeat; background-size: 150px. Подстановка изображения размером 150px по длине без повторения.</h3>
+            <h3>1.1.7 background-repeat:no-repeat; background-size: 150px. Подстановка изображения размером 150px по длине (ширине) без повторения.</h3>
+            <div class="image_content eighth_img"></div>
+            <h3>1.1.8 background-repeat:no-repeat; background-size: auto 150px. Подстановка изображения размером 150px по высоте без повторения.</h3>
+            <div class="image_content" id="ninth_img"></div>
+            <h3>1.1.9 background-repeat:no-repeat; background-size: 300px 80px. Подстановка изображения размером 300px по длине (ширине) и 80px по высоте без повторения.</h3>
+            <div class="image_content" id="tenth_img"></div>
+            <h3>1.1.10 background-repeat:no-repeat; background-size: 100% 80px. Подстановка изображения размером 100% по длине (ширине) и 80px по высоте без повторения.</h3>
             <div class="image_content" id="eleventh_img"></div>
+            <h3>1.1.11 background-repeat:no-repeat; background-size: 100px 100%. Подстановка изображения размером 100px по длине (ширине) и 100% по высоте без повторения.</h3>
+            <div class="image_content" id="twelfth_img"></div>
+            <h3>1.1.12 background-repeat:repeat-x; Подстановка изображения размером 100px по длине (ширине) c повторением только по горизонтали.</h3>
+            <div class="image_content" id="thirteenth_img"></div>
+            <h3>1.1.13 background-repeat:repeat-x; Подстановка изображения размером 50px по высоте c повторением только по вертикали.</h3>
+            <div class="image_content" id="fourteenth_img"></div>
+            <div class="title_content_chapter sticky second_title">
+                <h3>1.2 Позиционирование фонового изображения</h3>  
+                <h4> Подстановка изображения размером 150px по длине (ширине) без повторения.</h4>  
+            </div>
+            <h3>1.2.1  Позиционирование поумолчанию.</h3>
+            <div class="image_content position eighth_img"></div>
+            <h3 class="warning">Свойство background-position может принимать одно или два значения в различных единицах измерения.</h3>
+            <h3>1.2.2 background-position: left; Позиционирование слева блока в центре высоты.</h3>
+            <div class="image_content  position eighth_img" id="fifteenth_img"></div>
+            <h3>1.2.3 background-position: center; Позиционирование в центре блока.</h3>
+            <div class="image_content  position eighth_img" id="sixteenth_img"></div>
+            <h3>1.2.4 background-position: right; Позиционирование справа блока в центре высоты.</h3>
+            <div class="image_content  position eighth_img" id="seventeenth_img"></div>
+            <h3>1.2.5 background-position: top; Позиционирование вверху блока по центру длины.</h3>
+            <div class="image_content  position eighth_img" id="eighteenth_img"></div>
+            <h3>1.2.6 background-position: bottom; Позиционирование внизу блока по центру длины.</h3>
+            <div class="image_content  position eighth_img" id="ninteenth_img"></div>
+            <h3>1.2.7 background-position: 20%; Позиционирование 20% длины, центр высоты.</h3>
+            <div class="image_content  position eighth_img" id="twentieth_img"></div>
+            <h3>1.2.8 background-position: 250px; Позиционирование 250px длины, центр высоты.</h3>
+            <div class="image_content  position eighth_img" id="twenty-first_img"></div>
+            <h3>1.2.9 background-position: left bottom; Позиционирование слева снизу. Bottom может быть заменено на любое значение в %, px и прочие ед. измерения длины.</h3>
+            <div class="image_content  position eighth_img" id="twenty-second_img"></div>
+            <h3>1.2.10 background-position: right top; Позиционирование справа, сверху.</h3>
+            <div class="image_content  position eighth_img" id="twenty-third_img"></div>
+            <h3>1.2.11 background-position: right bottom; Позиционирование справа, снизу. Bottom может быть заменено на любое значение в %, px и прочие ед. измерения длины.</h3>
+            <div class="image_content  position eighth_img" id="twenty-fourth_img"></div>
+            <h3>1.2.12 background-position: 20% 20%; Позиционирование 20% длины 20% высоты.</h3>
+            <div class="image_content  position eighth_img" id="twenty-fifth_img"></div>
+            <h3>1.2.13 background-position: 250px 80px; Позиционирование 250px длины 80px высоты.</h3>
+            <div class="image_content  position eighth_img" id="twenty-sixth_img"></div>
+            <h3 class="warning">Свойство background-position-x может принимать одно значение в различных единицах измерения.</h3>
+            <h3>1.2.14 background-position-x: center; Позиционирование по длине - по центру.</h3>
+            <div class="image_content  position eighth_img" id="twenty-seventh_img"></div>
+            <h3 class="warning">Свойство background-position-y может принимать одно значение в различных единицах измерения.</h3>
+            <h3>1.2.14 background-position-y: bottom; Позиционирование по высоте - снизу.</h3>
+            <div class="image_content  position eighth_img" id="twenty-eighth_img"></div>
+            <h3>1.2.15 </h3>
+            <h3 class="warning">Свойство background-attachment: fixed; фиксирует изображение в блоке относительно экрана пользователя не зависимо от прогрутки элементов в блоке</h3>
+            <div class="title_content_chapter sticky">
+                <h3>1.3 Несколько фоновых изображений</h3>  
+            </div>
+            <h3>1.3.1 background-position-y: bottom; Первое изображение находится всегда сверху, последующие изображения по порядку накладываются под предыдущее изображение.</h3>
+            <div class="image_content position" id="twenty-ninth_img"></div>
+        </div>
         </div>
     </div>
     <div class="flex">
         <div class="chapter">
             <div class="sticky">
                 <h2>2. Картинка как картинка</h2>
-                <img class="image_chapter" src="https://zastavok.net/main/arhitektura/165273576578.jpg" alt="image">
+                <img class="image_chapter" src="https://zastavok.net/main/arhitektura/165273534318.jpg" alt="image">
             </div>
         </div>
         <div class="content_chapter">
