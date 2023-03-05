@@ -97,11 +97,37 @@
         <div class="chapter">
             <div class="sticky">
                 <h2>2. Картинка как картинка</h2>
-                <img class="image_chapter" src="https://zastavok.net/main/arhitektura/165273534318.jpg" alt="image">
+                <img class="image_chapter" src="https://zastavok.net/main/priroda/167718301580.jpg" alt="image">
             </div>
         </div>
         <div class="content_chapter">
-
+            <div class="title_content_chapter sticky up_header">
+                <h3>2.1 Фильтры на картинках и других элементах.</h3>    
+            </div>
+            <h3>2.1.1 filter:blur(2px); Размытие изображения: 0=четкое изображение, 20=полное размытие.</h3>
+            <img class="image_chapter" id="thirtieth_img" src="https://zastavok.net/main/priroda/167718301580.jpg" alt="image">
+            <h3>2.1.2 filter:drop-shadow(10px 12px 8px rgba(0,0,0,0.5)); Тень элемента. Работает с псевдоэлементами. Невозможно установить внутрь элемента. Невозможно сделать множество теней.</h3>
+            <img class="image_chapter" id="thirty_first_img" src="https://zastavok.net/main/priroda/167718301580.jpg" alt="image">
+            <h3>2.1.3 filter: grayscale(60%); Обесцвечивание. Принимает значения 0%-100%. 100%=полностью черно-белое изображение.</h3>
+            <img class="image_chapter" id="thirty_second_img" src="https://zastavok.net/main/priroda/167718301580.jpg" alt="image">
+            <h3>2.1.4 filter: grayscale(60%); Яркость. Диапазон значений от -50% до 150%. Поумолчанию яркость=100%.</h3>
+            <img class="image_chapter" id="thirty_third_img" src="https://zastavok.net/main/priroda/167718301580.jpg" alt="image">
+            <h3>2.1.5 filter: filter:contrast(150%); Контрастность. Поумолчанию контрастность=100%.</h3>
+            <img class="image_chapter" id="thirty_fourth_img" src="https://zastavok.net/main/priroda/167718301580.jpg" alt="image">
+            <h3>2.1.6 filter:hue-rotate(90deg); Наложение оттенка определенного цвета. Единицы измерения в градусах указывают определенный цвет на цветовом круге. Допустимые значения: 0-360deg.</h3>
+            <img class="image_chapter" id="thirty_fifth_img" src="https://zastavok.net/main/priroda/167718301580.jpg" alt="image">
+            <h3>2.1.7 filter:invert(100%); Инвертирование. Диапазон значений: 0-100%.</h3>
+            <img class="image_chapter" id="thirty_sixth_img" src="https://zastavok.net/main/priroda/167718301580.jpg" alt="image">
+            <h3>2.1.8 filter: saturate(165%); Насыщенность изображения. Поумолчанию=100%. Диапазон значений от 0 до бесконечности.</h3>
+            <img class="image_chapter" id="thirty_seventh_img" src="https://zastavok.net/main/priroda/167718301580.jpg" alt="image">
+            <h3>2.1.9 filter:sepia(100%); Сепия. Имитация старых изображений. Диапазон значений: 0-100%.</h3>
+            <img class="image_chapter" id="thirty_eighth_img" src="https://zastavok.net/main/priroda/167718301580.jpg" alt="image">
+            <h3>2.1.10 filter:opacity(50%); Прозрачность. Аналогичен свойству opacity. Диапазон значений: 0-100%. 100%=полностью непрозрачный элемент (поумолчанию).</h3>
+            <img class="image_chapter" id="thirty_ninth_img" src="https://zastavok.net/main/priroda/167718301580.jpg" alt="image">
+            <h3 class="warning">Фильтры можно комбинировать путем прописывания через пробел необходимых свойств.</h3>
+            <h3>2.1.11</h3>
+            <h3 class="warning">Фильтр ссылка. Дает возможность создавать свои уникальные фильтры. Он является html тегом "filter" и используется для svg элементов.</h3>
+        </div>
         </div>
     </div>
 </body>
